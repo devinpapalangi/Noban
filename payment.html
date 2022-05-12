@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Noban</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" type="image/png" href="img/faviconShort.png"/>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/payment.css">
+
+    <script src="https://kit.fontawesome.com/060b65162b.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <!-- Navigation Bar -->
+
+    <header>
+        <nav id="navbar-main" class="navbar navbar-expand-sm fixed-top navbar-light bg-dark ">
+            <div class="container">
+                <a id="nav-brand" class="navbar-brand" href="index.html">
+                    <img class="img img-fluid">
+                </a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target=".navbar-main" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbar-main">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="explore.html">Explore</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="profile.html">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">
+                                <button id="sign-in" class="button">Sign In</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+        <!-- BREADCRUMB-->
+        <section id="breadcrumb">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb primary-color">
+                        <li class="breadcrumb-item"><a href="index.html">Noban</a></li>
+                        <li class="breadcrumb-item"><a href="product-page.html">Graphics Design</a></li>
+                        <li class="breadcrumb-item active"><a href="#">Payment</a></li>
+                    </ol>
+                </nav>
+            </div>
+        </section>
+
+        <section id="order-details">
+            <div class="container">
+                <div class="row">
+                    <!-- ORDER -->
+                    <div id="order-details-container" class="col-lg-7 col-xs-12">
+                        <h2 id="order-header">Order #128937891237</h2>
+                        <h3 id="date"></h3>
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <img id="order-thumbnail" class="img-fluid img-thumbnail" src="img/GraphicDesign.png">
+                            </div>
+                            <div class="col-lg-8">
+                                <div id="order-subtitle">
+                                    <div id="order-header-container">
+                                        <h5 id="order-header">Graphic with Dave</h5>
+                                        <h5 id="order-price" class="text-muted">Rp. 100.000</h5>
+                                    </div>
+                                </div>
+                                <h6 id="order-seller"><i class="fas fa-user-circle"></i>&nbsp;&nbsp;Albero Productions</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="order-summary" class="col-lg-3 offset-lg-1 col-xs-12">
+                        <h2 id="order-summary-title" class="text-center">Order Summary</h2>
+                        <hr>
+                        <span>Price</span>
+                        <h6>Rp. 100.000</h6>
+                        <span>Platform Fee</span>
+                        <h6>Rp. 5.000</h6>
+                        <hr>
+                        <span>Subtotal</span>
+                        <h6>Rp. 105.000</h6>
+                        <span>Platform Discount</span>
+                        <h6>Rp. 15.000</h6>
+                        <hr>
+                        <span>Final Price</span>
+                        <h5 style="color: #52D28B;">Rp. 90.000</h5>
+                        <a href="#"><button id="confirm-order" type="button" class="btn" onclick="confirmation();">Confirm Order</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div id="footer-row-1" class="row">
+
+                <!-- FOOTER BRAND -->
+
+                <div id="footer-brand" class="col-lg-3 footer-content">
+                    <img src="img/logo.png" class="img img-fluid">
+                    <p class="footer-desc">JITJ Building 5th Floor<br>Jl. Mangga Dua Raya<br>Jakarta 14430</p>
+                </div>
+
+                <!-- FOOTER INFORMATION -->
+                
+                <div id="footer-information" class="col-lg-3 footer-content">
+                    <h4 class="footer-title">Information</h4>
+                    <hr class="solid">
+                    <ul class="footer-list">
+                        <li class="footer-list-item">
+                            <a href="#">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#">
+                                Help
+                            </a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#">
+                                Customer Service
+                            </a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#">
+                                Contact
+                            </a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#">
+                                Terms of Use
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- FOOTER SOCIAL -->
+
+                <div id="footer-social" class="col-lg-3 footer-content">
+                    <h4 class="footer-title">Social Media</h4>
+                    <hr class="solid">
+                    <ul id="footer-information" class="footer-list">
+                        <li class="footer-list-item">
+                            <a href="">
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="https://www.instagram.com/alvarocleavant/">
+                                Instagram
+                            </a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#">
+                                Twitter
+                            </a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#">
+                                YouTube
+                            </a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#">
+                                Reddit
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- FOOTER SUBSCRIBE -->
+
+                <div id="footer-sub" class="col-lg-3 footer-content">
+                    <h4 class="footer-title">Subscription</h4>
+                    <hr class="solid">
+                    <ul id="footer-information" class="footer-list">
+                        <form method="POST" action="#">
+                            <li class="footer-list-item">
+                                <input id="subscription" type="email" name="subscription" placeholder="Your Email" required>
+                            </li>
+                            <li class="footer-list-item">
+                                <button id="subscription-button" type="submit" class="btn" onclick="submitSub();">Subscribe Now</button>
+                            </li>
+                        </form>
+                    </ul>
+                </div>
+
+                
+            </div>
+
+            <div id="footer-row-2" class="row">
+                <div id="footer-copyright" class="col-lg-12 footer-content text-center">
+                    <a href="#top"><p>Back to Top</p></a>
+                </div>
+            </div>
+
+            <div id="footer-row-3" class="row">
+                <div id="footer-copyright" class="col-lg-12 footer-content text-center">
+                    <p>&copy; 2021 Noban Corporations. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.all.min.js"></script>
+    </script>
+    
+    <script type="text/javascript">
+        n = new Date();
+        y = n.getFullYear();
+        m = n.getMonth() + 1;
+        d = n.getDate();
+        document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+    </script>
+
+    <script type="text/javascript">
+        function confirmation()
+        {
+            Swal.fire({
+            icon: 'success',
+            title: 'Your order has been placed!',
+            showConfirmButton: false,
+            timer: 1500
+            }).then(function (result)
+            {
+                if (true)
+                {
+                    window.location = "index.html";
+                }
+            })
+        }
+    </script>
+
+  </body>
+</html>
