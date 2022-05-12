@@ -1,0 +1,357 @@
+
+
+@media only screen and (min-width: 600px)
+{
+/* LANDING */
+
+#top
+{
+    height: 100vh;
+    background-image: url(../img/jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-size: 105%;
+    background-position-x: left;
+    background-position-y: -50px;
+    background-attachment: fixed;
+    color: white;
+}
+
+#headline-container
+{
+    padding-top: 20vh;
+}
+
+#headline
+{
+    font-family: gothamBold;
+    font-size: 42px;
+    margin-bottom: 5vh;
+}
+
+#desc
+{
+    font-family: poppins;
+    font-size: 16px;
+    margin-bottom: 7.5vh;
+}
+
+#explore-btn
+{
+    font-family: poppinsMed;
+    border: none;
+    border-radius: 20px;
+    font-size: 2.5vh;
+    width: 30vh;
+    height: 7.5vh;
+    background-color: #52D28B;
+    color: white;
+}
+
+/* Searchbar */
+
+#searchBar
+{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10vh;
+    height: 7.5vh;
+
+    font-family: gothamMed;
+
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+#search
+{
+    width: 20vw !important;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    
+}
+
+#search:focus, #searchBtn .btn:focus
+{
+    box-shadow: none;
+    border: 1px solid black;
+}
+
+#search::placeholder
+{
+    font-size: 2vh;
+}
+
+.has-search .form-control 
+{
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback 
+{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+#searchBar .navbar-nav > li
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    opacity: 0.5;
+    
+}
+
+#searchBar .active
+{
+    opacity: 1 !important;
+}
+
+#searchBar .nav-link
+{
+    text-decoration: none;
+    color: black
+}
+
+#searchBar #expand
+{
+    opacity: 1 !important;
+    font-family: poppinsMed;
+    border: none;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #52D28B;
+    color: white;
+    margin-left: 25px;
+}
+
+#searchBar .searchCategory
+{
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 4vh;
+    width: 6vw;
+    font-size: 1.75vh;
+    background: none;
+}
+
+/* FEATURED JOBS */
+
+#featured
+{
+    height: 100%;
+    padding-top: 12.5vh;
+    padding-bottom: 10vh;
+}
+
+#featured-title
+{
+    font-family: gothamMed;
+    margin-bottom: 5vh;
+}
+
+.card-container
+{
+    padding: 2.5vh;
+}
+
+.featured-job
+{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.featured-job img
+{
+    border-radius: 15px 15px 0px 0px;
+}
+
+.featured-job .job-type
+{
+    font-size: 14px;
+}
+}
+
+@media only screen and (max-width: 600px)
+{
+/* LANDING */
+
+#top
+{
+    height: 100vh;
+    background-image: url(../img/jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: left;
+    color: white;
+}
+
+#headline-container
+{
+    padding-top: 20vh;
+}
+
+#headline
+{
+    font-family: gothamBold;
+    font-size: 42px;
+    margin-bottom: 5vh;
+}
+
+#desc
+{
+    font-family: poppins;
+    font-size: 16px;
+    margin-bottom: 7.5vh;
+}
+
+#explore-btn
+{
+    font-family: poppinsMed;
+    border: none;
+    border-radius: 20px;
+    font-size: 2.5vh;
+    width: 30vh;
+    height: 7.5vh;
+    background-color: #52D28B;
+    color: white;
+}
+
+/* Searchbar */
+
+#searchBar
+{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 5vh;
+    height: 7.5vh;
+
+    font-family: gothamMed;
+
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+#search
+{
+    width: 80% !important;
+    border: 0;
+    margin-top: -15px;
+    outline: 0;
+    background: transparent;
+    
+}
+
+#search:focus, #searchBtn .btn:focus
+{
+    box-shadow: none;
+    border: 1px solid black;
+}
+
+#search::placeholder
+{
+    font-size: 2vh;
+}
+
+.has-search .form-control 
+{
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback 
+{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+#searchBar .navbar-nav > li
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    opacity: 0.5;
+    
+}
+
+#searchBar .active
+{
+    opacity: 1 !important;
+}
+
+#searchBar .nav-link
+{
+    text-decoration: none;
+    color: black
+}
+
+#searchBar #expand
+{
+    display: none;
+}
+
+#searchBar .searchCategory
+{
+    display: none;
+}
+
+/* FEATURED JOBS */
+
+#featured
+{
+    display: none;
+}
+
+#featured-title
+{
+    font-family: gothamMed;
+    margin-bottom: 5vh;
+}
+
+.card-container
+{
+    padding: 2.5vh;
+}
+
+.featured-job
+{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.featured-job img
+{
+    border-radius: 15px 15px 0px 0px;
+}
+
+.featured-job .job-type
+{
+    font-size: 14px;
+}
+}

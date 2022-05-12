@@ -1,0 +1,318 @@
+
+
+@media only screen and (min-width: 600px)
+{
+    /* LANDING */
+
+#top
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    background-image: url(../img/about-us.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    color: white;
+
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+#headline
+{
+    font-family: gothamBold;
+    font-size: 5vw;
+}
+
+#sub-headline
+{
+    font-family: gothamBold;
+}
+
+/* OUR DIRECTION */
+
+#our-direction
+{
+    height: 100%;
+    padding-top: 12.5vh;
+    padding-bottom: 12.5vh;
+}
+
+#our-direction .card
+{
+    width: 18rem;
+    height: 55vh;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#our-direction #direction-title
+{
+    font-family: gothamMed;
+    margin-bottom: 5vh;
+}
+
+#our-direction .card-img
+{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#our-direction .card-img-top
+{
+    padding: 50px;
+    margin-top: 10vh;
+}
+
+#our-direction .card-title
+{
+    font-family: gothamBold;
+}
+
+#our-direction .solid
+{
+    height: 2px;
+    width: 25%;
+    background: #52D28B;
+}
+
+/* MEET THE TEAM*/
+
+#teams
+{
+    height: 100%;
+    padding-top: 12.5vh;
+    padding-bottom: 12.5vh;
+    background-color: white;
+}
+
+#title-container
+{
+    margin-bottom: 5vh;
+}
+
+#teams-title
+{
+    font-family: gothamMed;
+    color: #52D28B;
+    margin-bottom: 2vh;
+}
+
+#teams-subheader
+{
+    font-family: poppins;
+    color: #5E5E5E;
+}
+
+#teams .profile
+{
+    border: none;
+    padding: 25px;
+    margin-top: 5vh;
+}
+
+#teams .profile .card-img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#teams .profile .card-img-top
+{
+    width: 75%;
+}
+
+#teams .profile .card-title
+{
+    font-family: gothamMed;
+    color: #52D28B;
+}
+
+#teams .profile .card-subtitle
+{
+    font-family: gothamMed;
+}
+
+#teams .profile .card-text
+{
+    font-family: poppins;
+    color: #5E5E5E;
+}
+
+#teams .profile .social-media
+{
+    text-decoration: none;
+    color: #52D28B;
+    font-size: 2.5vh;
+    text-align: center;
+    margin: 0 10px 0 10px;
+}
+}
+
+@media only screen and (max-width: 600px)
+{
+    /* LANDING */
+
+#top
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    background-image: url(../img/about-us.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    color: white;
+
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+#headline
+{
+    font-family: gothamBold;
+    font-size: 5vw;
+}
+
+#sub-headline
+{
+    font-family: gothamBold;
+}
+
+/* OUR DIRECTION */
+
+#our-direction
+{
+    height: 100%;
+    text-align: center;
+    padding-top: 12.5vh;
+    padding-bottom: 12.5vh;
+}
+
+#our-direction .card
+{
+    width: 18rem;
+    margin: auto;
+    margin-bottom: 2.5vh;
+    height: 55vh;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#our-direction #direction-title
+{
+    font-family: gothamMed;
+    margin-bottom: 5vh;
+}
+
+#our-direction .card-img
+{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#our-direction .card-img-top
+{
+    padding: 50px;
+    margin-top: 10vh;
+}
+
+#our-direction .card-title
+{
+    font-family: gothamBold;
+}
+
+#our-direction .solid
+{
+    height: 2px;
+    width: 25%;
+    background: #52D28B;
+}
+
+/* MEET THE TEAM*/
+
+#teams
+{
+    height: 100%;
+    padding-top: 12.5vh;
+    padding-bottom: 12.5vh;
+    background-color: white;
+}
+
+#title-container
+{
+    margin-bottom: 5vh;
+}
+
+#teams-title
+{
+    font-family: gothamMed;
+    color: #52D28B;
+    margin-bottom: 2vh;
+}
+
+#teams-subheader
+{
+    font-family: poppins;
+    color: #5E5E5E;
+}
+
+#teams .profile
+{
+    border: none;
+    padding: 25px;
+    margin-top: 5vh;
+}
+
+#teams .profile .card-img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#teams .profile .card-img-top
+{
+    width: 75%;
+}
+
+#teams .profile .card-title
+{
+    font-family: gothamMed;
+    color: #52D28B;
+}
+
+#teams .profile .card-subtitle
+{
+    font-family: gothamMed;
+}
+
+#teams .profile .card-text
+{
+    font-family: poppins;
+    color: #5E5E5E;
+}
+
+#teams .profile .social-media
+{
+    text-decoration: none;
+    color: #52D28B;
+    font-size: 2.5vh;
+    text-align: center;
+    margin: 0 10px 0 10px;
+}
+}

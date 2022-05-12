@@ -1,0 +1,272 @@
+/* NAVBAR OVERRIDE */
+
+.bg-dark
+{
+    background:white!important;
+    box-shadow: 10px 0px 10px rgb(180, 180, 180);
+}
+
+.bg-dark a
+{
+    color: black !important;
+}
+
+.bg-dark #nav-brand img
+{
+    content: url("../img/logo-nav.png");
+}
+
+
+@media only screen and (min-width: 600px)
+{
+
+/* EXPLORE */
+
+#explore
+{
+    height: 25vh;
+    padding-top: 15vh;
+}
+
+#explore #search-bar input[type="text"]
+{
+    font-family: gothamMed;
+    font-size: 14px;
+    width: 100%;
+    margin-left: auto;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#explore #search-bar button
+{
+    background-color: #52D28B;
+    border: none;
+    position: absolute;
+    right: 10px;
+    margin-right: auto;
+}
+
+/* FILTER TABLE */
+
+#product
+{
+    height: 100%;
+}
+
+#filter
+{
+    height: 100%;
+    margin-bottom: 5vh;
+}
+
+#filter .filter-title
+{
+    font-size: 16px;
+}
+
+#filter .list-group-item
+{
+    background: none;
+    border: none;
+    font-family: poppins;
+    font-size: 14px;
+    color: #5e5e5e;
+    height: 2rem;
+}
+
+#filter-pricing
+{
+    margin-top: 5vh;
+}
+
+#filter .active
+{
+    color: #52D28B;
+}
+
+
+/* PRODUCT LIST */
+
+#product-list .featured-job
+{
+    margin-bottom: 5vh;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#product-list .featured-job:hover
+{
+    transform: translateY(-5px);
+}
+
+#product-list .featured-job img
+{
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 30vh;
+}
+
+#product-list .featured-job .job-title
+{
+    font-family: gothamMed;
+    margin-bottom: 15px;
+}
+
+#product-list .featured-job .job-type
+{
+    font-family: poppinsMed;
+    font-size: 0.75rem;
+    opacity: 0.75;
+    color: black;
+
+}
+
+#product-list .featured-job .job-desc
+{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 0.8rem;
+    font-family: poppinsMed;
+    color: #5e5e5e;
+}
+
+#product-list .featured-job .job-price
+{
+    font-family: gotham;
+    font-size: 1rem;
+}
+}
+
+@media only screen and (max-width: 600px)
+{
+/* NAVBAR OVERRIDE */
+
+.bg-dark
+{
+    background:white!important;
+    box-shadow: 10px 0px 10px rgb(180, 180, 180);
+}
+
+.bg-dark a
+{
+    color: black;
+}
+
+.bg-dark #nav-brand img
+{
+    content: url("../img/logo-nav.png");
+}
+
+/* EXPLORE */
+
+#explore
+{
+    height: 25vh;
+    padding-top: 15vh;
+}
+
+#explore #search-bar input[type="text"]
+{
+    font-family: gothamMed;
+    font-size: 14px;
+    width: 100%;
+    margin-left: auto;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#explore #search-bar button
+{
+    background-color: #52D28B;
+    border: none;
+    position: absolute;
+    right: 10px;
+    margin-right: auto;
+}
+
+/* FILTER TABLE */
+
+#product
+{
+    height: 100%;
+}
+
+#filter
+{
+    height: 100%;
+    margin-bottom: 5vh;
+}
+
+#filter .filter-title
+{
+    font-size: 16px;
+}
+
+#filter .list-group-item
+{
+    background: none;
+    border: none;
+    font-family: poppins;
+    font-size: 10px;
+    color: #5e5e5e;
+    height: 2rem;
+}
+
+#filter .active
+{
+    color: #52D28B;
+}
+
+
+/* PRODUCT LIST */
+
+#product-list .featured-job
+{
+    margin-bottom: 5vh;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#product-list .featured-job:hover
+{
+    transform: translateY(-5px);
+}
+
+#product-list .featured-job img
+{
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 15vh;
+}
+
+#product-list .featured-job .job-title
+{
+    font-family: gothamMed;
+    margin-bottom: 15px;
+}
+
+#product-list .featured-job .job-type
+{
+    font-family: poppinsMed;
+    font-size: 0.75rem;
+    opacity: 0.75;
+    color: black;
+
+}
+
+#product-list .featured-job .job-desc
+{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 0.8rem;
+    font-family: poppinsMed;
+    color: #5e5e5e;
+}
+
+#product-list .featured-job .job-price
+{
+    font-family: gotham;
+    font-size: 1rem;
+}
+}

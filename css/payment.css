@@ -1,0 +1,200 @@
+/* NAVBAR OVERRIDE */
+
+.bg-dark
+{
+    background:white!important;
+    box-shadow: 10px 0px 10px rgb(180, 180, 180);
+}
+
+.bg-dark a
+{
+    color: black !important;
+}
+
+.bg-dark #nav-brand img
+{
+    content: url("../img/logo-nav.png");
+}
+
+
+
+@media only screen and (min-width: 600px)
+{
+    /* ORDER DETAILS */
+
+#order-details
+{
+    height: 100%;
+    padding-bottom: 10vh;
+}
+
+#order-details #order-details-container
+{
+    background-color: white;
+    height: 100%;
+    border-radius: 10px;
+    padding: 45px;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#order-details #order-header, #payment-header
+{
+    font-family: gothamMed;
+    font-size: 1.5rem;
+}
+
+#order-details #date
+{
+    font-family: gothamMed;
+    font-size: 1rem;
+}
+
+#order-details #order-price
+{
+    font-family: gothamMed;
+    font-size: 1.25rem;
+}
+
+#order-details #order-seller
+{
+    font-family: poppinsMed;
+}
+
+#order-details #order-thumbnail
+{
+    width: 90%;
+}
+
+#order-details #order-seller i
+{
+    color: #52D28B;
+}
+
+#order-subtitle div
+{
+    margin-bottom: 5vh;
+}
+
+/* ORDER SUMMARY */
+
+#order-summary-title
+{
+    font-family: gothamMed;
+}
+
+#order-summary span
+{
+    font-family: poppins;
+    opacity: 0.6;
+}
+
+#order-summary h5, #order-summary h6
+{
+    font-family: gothamMed;
+    margin-bottom: 2.5vh;
+}
+
+#order-summary button
+{
+    font-family: poppinsMed;
+    border: none;
+    border-radius: 15px;
+    font-size: 2.5vh;
+    width: 100%;
+    height: 6vh;
+    background-color: #52D28B;
+    color: white;
+}
+}
+
+@media only screen and (max-width: 600px)
+{
+    /* ORDER DETAILS */
+
+#order-details
+{
+    height: 100%;
+    padding-bottom: 10vh;
+}
+
+#order-details #order-details-container
+{
+    background-color: white;
+    height: 100%;
+    border-radius: 10px;
+    padding: 45px;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#order-details #order-header, #payment-header
+{
+    font-family: gothamMed;
+    font-size: 1.5rem;
+}
+
+#order-details #date
+{
+    font-family: gothamMed;
+    font-size: 1rem;
+}
+
+#order-details #order-price
+{
+    font-family: gothamMed;
+    font-size: 1.25rem;
+}
+
+#order-details #order-seller
+{
+    font-family: poppinsMed;
+}
+
+#order-details #order-thumbnail
+{
+    width: 90%;
+}
+
+#order-details #order-seller i
+{
+    color: #52D28B;
+}
+
+#order-subtitle div
+{
+    margin-bottom: 5vh;
+}
+
+/* ORDER SUMMARY */
+
+#order-summary-title
+{
+    font-family: gothamMed;
+    margin-top: 5vh;
+}
+
+#order-summary span
+{
+    font-family: poppins;
+    opacity: 0.6;
+}
+
+#order-summary h5, #order-summary h6
+{
+    font-family: gothamMed;
+    margin-bottom: 2.5vh;
+}
+
+#order-summary button
+{
+    font-family: poppinsMed;
+    border: none;
+    border-radius: 15px;
+    font-size: 2.5vh;
+    width: 100%;
+    height: 6vh;
+    background-color: #52D28B;
+    color: white;
+}
+}

@@ -1,0 +1,299 @@
+/* NAVBAR OVERRIDE */
+
+.bg-dark
+{
+    background:white!important;
+    box-shadow: 10px 0px 10px rgb(180, 180, 180);
+}
+
+.bg-dark a
+{
+    color: black !important;
+}
+
+.bg-dark #nav-brand img
+{
+    content: url("../img/logo-nav.png");
+}
+
+
+@media only screen and (min-width: 600px)
+{
+
+/* PRODUCT DISPLAY */
+#product
+{
+    height: 100%;
+    padding-bottom: 15vh;
+}
+
+#job-title, #job-subtitle
+{
+    margin-bottom: 3vh;
+}
+
+#job-desc, #job-seller-name, #job-addon
+{
+    margin-bottom: 5vh;
+}
+
+#job-title, #job-buttons
+{
+    font-family: gothamBold;
+}
+
+#job-subtitle, #job-theme, #job-revision, #job-duration
+{
+    font-family: poppinsMed;
+}
+
+#job-desc, .addon-title
+{
+    font-family: poppins;
+    opacity: 0.75;
+}
+
+#job-subtitle div
+{
+    display: inline-block;
+}
+
+#job-subtitle #job-rating-container
+{
+    float: right;
+    color: #ffd700;
+}
+
+#job-price-container #job-price
+{
+    font-size: 1.2rem;
+}
+
+#job-rating-container h6
+{
+    font-size: 1.2rem;
+}
+
+#job-details #job-seller-name
+{
+    font-size: 1.1rem;
+}
+
+#job-details #job-seller-name i
+{
+    font-size: 1.5rem !important;
+    color: #52D28B;
+}
+
+#job-details #job-addon div
+{
+    border-right: 1px solid gray;
+}
+
+#job-details #job-addon div:last-child
+{
+    border-right: none !important;
+}
+
+#job-addon a, #job-addon #job-duration, #job-addon #job-revision
+{
+    text-decoration: none;
+    color: #52D28B
+}
+
+#job-buttons #job-purchase
+{
+    font-family: poppinsMed;
+    border: none;
+    border-radius: 15px;
+    font-size: 2.5vh;
+    width: 80%;
+    height: 6vh;
+    background-color: #52D28B;
+    color: white;
+}
+
+#job-buttons #job-chat
+{
+    font-family: poppinsMed;
+    border: none;
+    border-radius: 15px;
+    font-size: 2.5vh;
+    width: 15%;
+    height: 6vh;
+    background-color: #52D28B;
+    color: white;
+    float: right;
+}
+
+/* CAROUSEL */
+
+#product-carousel .carousel-indicators 
+{
+    position: static;
+    margin: auto;
+    margin-top: 20px
+}
+
+#product-carousel .carousel-indicators > li 
+{
+    width: 100px
+}
+
+#product-carousel .carousel-indicators li img
+{
+    display: block;
+    opacity: 0.5
+}
+
+#product-carousel .carousel-indicators li.active img 
+{
+    opacity: 1
+}
+
+#product-carousel .carousel-indicators li:hover img 
+{
+    opacity: 0.75
+}
+}
+
+@media only screen and (max-width: 600px)
+{
+
+/* PRODUCT DISPLAY */
+#product
+{
+    height: 100%;
+    padding-bottom: 10vh;
+}
+
+#job-title, #job-subtitle
+{
+    margin-bottom: 3vh;
+}
+
+#job-desc, #job-seller-name, #job-addon
+{
+    margin-bottom: 5vh;
+}
+
+#job-title, #job-buttons
+{
+    font-family: gothamBold;
+}
+
+#job-subtitle, #job-theme, #job-revision, #job-duration
+{
+    font-family: poppinsMed;
+}
+
+#job-desc, .addon-title
+{
+    font-family: poppins;
+    opacity: 0.75;
+}
+
+#job-subtitle div
+{
+    display: inline-block;
+}
+
+#job-subtitle #job-rating-container
+{
+    float: right;
+    color: #ffd700;
+}
+
+#job-price-container #job-price
+{
+    font-size: 1.2rem;
+}
+
+#job-rating-container h6
+{
+    font-size: 1.2rem;
+}
+
+#job-details #job-seller-name
+{
+    font-size: 1.1rem;
+}
+
+#job-details #job-seller-name i
+{
+    font-size: 1.5rem !important;
+    color: #52D28B;
+}
+
+#job-details #job-addon div
+{
+    border-right: 1px solid gray;
+}
+
+#job-details #job-addon div:last-child
+{
+    border-right: none !important;
+}
+
+#job-addon a, #job-addon #job-duration, #job-addon #job-revision
+{
+    text-decoration: none;
+    color: #52D28B
+}
+
+#job-buttons #job-purchase
+{
+    font-family: poppinsMed;
+    border: none;
+    border-radius: 15px;
+    font-size: 2.5vh;
+    width: 80%;
+    height: 6vh;
+    background-color: #52D28B;
+    color: white;
+}
+
+#job-buttons #job-chat
+{
+    font-family: poppinsMed;
+    border: none;
+    border-radius: 15px;
+    font-size: 2.5vh;
+    width: 15%;
+    height: 6vh;
+    background-color: #52D28B;
+    color: white;
+    float: right;
+}
+
+/* CAROUSEL */
+
+#product-carousel .carousel-indicators 
+{
+    position: static;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15vh;
+}
+
+#product-carousel .carousel-indicators > li 
+{
+    width: 100px
+}
+
+#product-carousel .carousel-indicators li img
+{
+    display: block;
+    opacity: 0.5
+}
+
+#product-carousel .carousel-indicators li.active img 
+{
+    opacity: 1
+}
+
+#product-carousel .carousel-indicators li:hover img 
+{
+    opacity: 0.75
+}
+}

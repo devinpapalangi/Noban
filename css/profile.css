@@ -1,0 +1,176 @@
+/* NAVBAR OVERRIDE */
+
+.bg-dark
+{
+    background:white!important;
+    box-shadow: 10px 0px 10px rgb(180, 180, 180);
+}
+
+.bg-dark a
+{
+    color: black !important;
+}
+
+.bg-dark #nav-brand img
+{
+    content: url("../img/logo-nav.png");
+}
+
+/* PROFILE HEADER */
+#profile
+{
+    height: 100%;
+    padding: 15vh;
+}
+
+#profile #profile-header
+{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    padding: 2vh;
+    margin-bottom: 10vh;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#profile #profile-img-cont
+{
+    margin: auto;
+    padding-left: 2.5vw;
+}
+
+#profile #profile-img
+{
+    width: 25%;
+    margin: auto;
+    display: inline-block;
+}
+
+#profile #profile-seller
+{
+    margin: auto;
+    display: inline-block;
+}
+
+#profile #profile-name
+{
+    margin: auto;
+    font-family: gothamBold;
+}
+
+#profile #profile-status
+{
+    margin: auto;
+    font-family: gothamMed;
+}
+
+#satis-cont
+{
+    margin: auto;
+    color: #52D28B;
+}
+
+#satisfaction-star
+{
+    margin: auto;
+    display: inline-block;
+    font-size: 3.5rem;
+}
+
+#satisfaction-title
+{
+    margin: auto;
+    font-size: 1rem;
+}
+
+#satisfaction-rating
+{
+    margin: auto;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+#jobs-cont
+{
+    margin: auto;
+    color: #52D28B;
+}
+
+#jobs-star
+{
+    margin: auto;
+    display: inline-block;
+    font-size: 3.5rem;
+}
+
+#jobs-title
+{
+    margin: auto;
+    font-size: 1rem;
+}
+
+#jobs-rating
+{
+    margin: auto;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+#recent-jobs
+{
+    margin-bottom: 5vh;
+}
+
+
+/* PRODUCT LIST */
+
+.featured-job
+{
+    margin-bottom: 5vh;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.featured-job:hover
+{
+    transform: translateY(-5px);
+}
+
+.featured-job img
+{
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 30vh;
+}
+
+.featured-job .job-title
+{
+    font-family: gothamMed;
+    margin-bottom: 15px;
+}
+
+.featured-job .job-type
+{
+    font-family: poppinsMed;
+    font-size: 0.75rem;
+    opacity: 0.75;
+    color: black;
+
+}
+
+.featured-job .job-desc
+{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 0.8rem;
+    font-family: poppinsMed;
+    color: #5e5e5e;
+}
+
+.featured-job .job-price
+{
+    font-family: gotham;
+    font-size: 1rem;
+}

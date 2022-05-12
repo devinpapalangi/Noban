@@ -1,0 +1,511 @@
+@media only screen and (min-width: 1200px)
+{
+    body
+    {
+        background-color: white;
+    }
+
+    #box
+    {
+        height: 100%;
+        width: 35%;
+        margin-top: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
+        padding: 35px;
+    }
+
+
+    /* HEADER */
+
+    #boxHeader
+    {
+        margin-bottom: 5vh;
+    }
+
+    #logo
+    {
+        width: 15vw;
+        margin-bottom: 20px;
+    }
+
+    #box h1
+    {
+        font-size: 2vw;
+        font-family: gothamMed;
+    }
+
+    #box p
+    {
+        font-size: 1vw;
+    }
+
+    /* FORM */
+
+    form
+    {
+        margin: auto;
+        width: 80%;
+    }
+
+    .tab
+    {
+        width: 100%;
+    }
+
+    #form input
+    {
+        border: 0;
+        outline: 0;
+        background: transparent;
+        border-bottom: 1px solid black;
+        margin-bottom: 5vh;
+        width: 100%;
+    }
+
+    #form input:focus
+    {
+        
+        border-bottom: 2px solid #52D28B;
+    }
+
+    #form .invalid 
+    {
+        border-bottom: 2px solid red;
+    }
+
+    #form input[type="submit"]
+    {
+        background: #52D28B;
+        color: #ffffff;
+        font-family: poppinsMed;
+        border: none;
+        border-radius: 15px;
+        height: 6vh;
+        margin-top: 2.5vh;
+
+    }
+
+
+
+    /* FOOTER */
+
+    #boxFooter a
+    {
+        font-family: poppinsMed;
+        color: #52D28B;
+    }
+
+    #boxFooter p
+    {
+        margin-top: 2.5vh;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px)
+{
+    body
+    {
+        background-color: white;
+    }
+
+    #box
+    {
+        height: 100%;
+        width: 50%;
+        margin-top: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
+        padding: 35px;
+    }
+
+
+    /* HEADER */
+
+    #boxHeader
+    {
+        margin-bottom: 5vh;
+    }
+
+    #logo
+    {
+        width: 25vw;
+        margin-bottom: 20px;
+    }
+
+    #box h1
+    {
+        font-size: 3vw;
+        font-family: gothamMed;
+    }
+
+    #box p
+    {
+        font-size: 2vw;
+    }
+
+    /* FORM */
+
+    form
+    {
+        margin: auto;
+        width: 80%;
+    }
+
+    #form input
+    {
+        border: 0;
+        outline: 0;
+        background: transparent;
+        border-bottom: 1px solid black;
+        margin-bottom: 5vh;
+        width: 100%;
+    }
+
+    #form input:focus
+    {
+        
+        border-bottom: 2px solid #52D28B;
+    }
+
+    #form .invalid 
+    {
+        border-bottom: 2px solid red;
+    }
+
+    #form input[type="submit"]
+    {
+        background: #52D28B;
+        color: #ffffff;
+        font-family: poppinsMed;
+        border: none;
+        border-radius: 15px;
+        height: 6vh;
+        margin-top: 2.5vh;
+
+    }
+
+    /* FOOTER */
+
+    #boxFooter a
+    {
+        font-family: poppinsMed;
+        color: #52D28B;
+    }
+
+    #boxFooter p
+    {
+        margin-top: 2.5vh;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px)
+{
+    body
+    {
+        background-color: white;
+    }
+
+    #box
+    {
+        height: 100%;
+        width: 75%;
+        margin-top: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
+        padding: 35px;
+    }
+
+
+    /* HEADER */
+
+    #boxHeader
+    {
+        margin-bottom: 5vh;
+    }
+
+    #logo
+    {
+        width: 25vw;
+        margin-bottom: 20px;
+    }
+
+    #box h1
+    {
+        font-size: 4vw;
+        font-family: gothamMed;
+    }
+
+    #box p
+    {
+        font-size: 2.5vw;
+    }
+
+    /* FORM */
+
+    form
+    {
+        margin: auto;
+        width: 80%;
+    }
+
+    #form input
+    {
+        border: 0;
+        outline: 0;
+        background: transparent;
+        border-bottom: 1px solid black;
+        margin-bottom: 5vh;
+        width: 100%;
+    }
+
+    #form input:focus
+    {
+        
+        border-bottom: 2px solid #52D28B;
+    }
+
+    #form .invalid 
+    {
+        border-bottom: 2px solid red;
+    }
+
+    #form input[type="submit"]
+    {
+        background: #52D28B;
+        color: #ffffff;
+        font-family: poppinsMed;
+        border: none;
+        border-radius: 15px;
+        height: 6vh;
+        margin-top: 2.5vh;
+
+    }
+
+    /* FOOTER */
+
+    #boxFooter a
+    {
+        font-family: poppinsMed;
+        color: #52D28B;
+    }
+
+    #boxFooter p
+    {
+        margin-top: 2.5vh;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px)
+{
+    body
+    {
+        background-color: white;
+    }
+
+    #box
+    {
+        height: 100%;
+        width: 75%;
+        margin-top: 5vh;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
+        padding: 35px;
+    }
+
+
+    /* HEADER */
+
+    #boxHeader
+    {
+        margin-bottom: 5vh;
+    }
+
+    #logo
+    {
+        width: 25vw;
+        margin-bottom: 20px;
+    }
+
+    #box h1
+    {
+        font-size: 4vw;
+        font-family: gothamMed;
+    }
+
+    #box p
+    {
+        font-size: 2.5vw;
+    }
+
+    /* FORM */
+
+    form
+    {
+        margin: auto;
+        width: 80%;
+    }
+
+    #form input
+    {
+        border: 0;
+        outline: 0;
+        background: transparent;
+        border-bottom: 1px solid black;
+        margin-bottom: 5vh;
+        width: 100%;
+    }
+
+    #form input:focus
+    {
+        
+        border-bottom: 2px solid #52D28B;
+    }
+
+    #form .invalid 
+    {
+        border-bottom: 2px solid red;
+    }
+
+    #form input[type="submit"]
+    {
+        background: #52D28B;
+        color: #ffffff;
+        font-family: poppinsMed;
+        border: none;
+        border-radius: 15px;
+        height: 6vh;
+        margin-top: 2.5vh;
+
+    }
+
+    /* FOOTER */
+
+    #boxFooter a
+    {
+        font-family: poppinsMed;
+        color: #52D28B;
+    }
+
+    #boxFooter p
+    {
+        margin-top: 2.5vh;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 600px)
+{
+    body
+    {
+        background-color: white;
+    }
+
+    #box
+    {
+        height: 100%;
+        width: 100%;
+        margin-top: 2.5vh;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
+        padding: 35px;
+    }
+
+
+    /* HEADER */
+
+    #boxHeader
+    {
+        margin-bottom: 5vh;
+    }
+
+    #logo
+    {
+        width: 50vw;
+        margin-bottom: 20px;
+    }
+
+    #box h1
+    {
+        font-size: 7.5vw;
+        font-family: gothamMed;
+    }
+
+    #box p
+    {
+        font-size: 4vw;
+    }
+
+    /* FORM */
+
+    form
+    {
+        margin: auto;
+        margin-top: 5vh;
+        width: 90%;
+    }
+
+    #form input
+    {
+        border: 0;
+        outline: 0;
+        background: transparent;
+        border-bottom: 1px solid black;
+        margin-bottom: 5vh;
+        width: 100%;
+    }
+
+    #form input:focus
+    {
+        
+        border-bottom: 2px solid #52D28B;
+    }
+
+    #form .invalid 
+    {
+        border-bottom: 2px solid red;
+    }
+
+    #form input[type="submit"]
+    {
+        background: #52D28B;
+        color: #ffffff;
+        font-family: poppinsMed;
+        border: none;
+        border-radius: 15px;
+        height: 6vh;
+        margin-top: 2.5vh;
+
+    }
+
+    /* FOOTER */
+
+    #boxFooter a
+    {
+        font-family: poppinsMed;
+        color: #52D28B;
+    }
+
+    #boxFooter p
+    {
+        margin-top: 2.5vh;
+    }
+
+}
+

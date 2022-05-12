@@ -1,0 +1,571 @@
+@-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes fade-out {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes fade-out {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+#bm
+{
+    padding: 0;
+    height: 100vh;
+    background-color: #52D28B;
+}
+
+#bm
+{
+	-webkit-animation: fade-in 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 0.5s both;
+	        animation: fade-in 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) 0.5s both;
+}
+
+#bm
+{
+    -webkit-animation: fade-out 1s ease-out 5.5s both;
+            animation: fade-out 1s ease-out 5.5s both;
+}
+
+#all-page
+{
+    -webkit-animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+@media (min-width: 1200px) 
+{
+    .container
+    {
+        max-width: 1280px;
+    }
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    width: 100%;
+    background-color: #eeeeee;
+}
+@font-face 
+{
+    font-family: gothamMed;
+    src: url(../fonts/GothamMedium.ttf);
+}
+
+@font-face
+{
+    font-family: gothamBold;
+    src: url(../fonts/Gotham-Bold.otf)
+}
+
+@font-face
+{
+    font-family: poppins;
+    src: url(../fonts/Poppins-Regular.ttf)
+}
+
+@font-face
+{
+    font-family: poppinsMed;
+    src: url(../fonts/Poppins-Medium.ttf)
+}
+
+@media only screen and (min-width: 600px)
+{
+
+
+/* Navigation Bar */
+
+#navbar-main
+{
+    height: 10vh;
+}
+
+#navbar-main .navbar-nav > li
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.dropdown-menu
+{
+    background-color: white !important;
+}
+
+.bg-dark
+{
+    background: transparent !important;
+    transition:0.5s ease;
+}
+
+.bg-dark a
+{
+    font-family: gothamMed;
+    text-decoration: none;
+    color: white !important;
+    font-size: 14px;
+}
+
+.bg-dark #nav-brand img
+{
+    height: 6vh;
+    content: url("../img/logo-nav2.png");
+}
+
+.bg-dark.scrolled 
+{
+    background:white!important;
+    box-shadow: 10px 0px 10px rgb(180, 180, 180);
+}
+
+.bg-dark.scrolled a
+{
+    color: black !important;
+}
+
+.bg-dark.scrolled #nav-brand img
+{
+    content: url("../img/logo-nav.png");
+}
+
+.bg-dark .active a, .bg-dark.scrolled .active a
+{
+    color: #52D28B !important;
+}
+
+#sign-in
+{
+    font-family: poppinsMed;
+
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+
+    margin-left: 50px;
+
+    background-color: #52D28B;
+    color: white;
+}
+
+#sign-in:hover
+{
+    opacity: 0.75;
+}
+
+#sign-in:active
+{
+    background-color: white;
+}
+
+/* Breadcrumb */
+
+#breadcrumb 
+{
+    margin-top: 12.5vh;
+    font-family: poppinsMed;
+}
+
+#breadcrumb *
+{
+    background-color: #eeeeee !important;
+}
+
+#breadcrumb .breadcrumb-item a
+{
+    text-decoration: none;
+    color: #52D28B;
+    font-size: 14px;
+}
+
+#breadcrumb .breadcrumb-item + .breadcrumb-item::before 
+{
+    content: ">";
+}
+
+/* Footer */
+
+footer
+{
+    height: 60vh;
+    padding-top: 10vh;
+    background-color: white;
+    border-top: 1px solid rgb(180, 180, 180);
+}
+
+footer .container
+{
+    height: 35vh;
+    margin-bottom: auto;
+}
+
+footer .container .row img
+{
+    width: 128px;
+    margin-bottom: 2vh;
+}
+
+footer .solid
+{
+    position: relative;
+    margin-left: 0;
+    border: none;
+    height: 4px;
+    width: 50px;
+    background: #52D28B;
+    margin-bottom: 25px;
+}
+
+#footer-brand
+{
+    margin: auto;
+    padding-right: 50px;
+}
+
+#footer-brand .footer-desc
+{
+    font-family: poppins;
+    color: black;
+    font-size: 14px;
+    opacity: 0.75;
+}
+
+.footer-title
+{
+    font-family: gothamMed;
+}
+
+.footer-list
+{
+    padding: 0;
+}
+
+.footer-list-item
+{
+    list-style-type: none;
+    font-family: poppins;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer-list-item a
+{
+    text-decoration: none;
+    color: black;
+    opacity: 0.75;
+}
+
+#footer-sub
+{
+    padding-right: 50px;
+}
+
+#subscription
+{
+    background: transparent;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 15px;
+    width: 250px;
+    height: 6vh;
+    font-size: 14px;
+}
+
+#subscription::placeholder
+{
+    padding: 10px;
+}
+
+#subscription-button
+{
+    font-family: poppinsMed;
+    font-size: 14px;
+    border: none;
+    border-radius: 15px;
+    width: 250px;
+    height: 6vh;
+    background: #52D28B;
+    color: #ffffff;
+}
+
+#footer-row-2
+{
+    margin-top: 2.5vh;
+}
+
+#footer-row-2 a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#footer-row-3
+{
+    color: black;
+    opacity: 0.75;
+}
+
+}
+
+@media only screen and (max-width: 600px)
+{
+    /* Navigation Bar */
+
+#navbar-main
+{
+    height: 10vh;
+}
+
+#navbar-main .navbar-nav > li
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.bg-dark
+{
+    background: transparent !important;
+    transition:0.5s ease;
+    
+}
+
+.bg-dark a
+{
+    font-family: gothamMed;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.bg-dark #nav-brand img
+{
+    height: 6vh;
+    content: url("../img/logo-nav2.png");
+}
+
+.bg-dark.scrolled 
+{
+    background:white!important;
+    box-shadow: 10px 0px 10px rgb(180, 180, 180);
+}
+
+.bg-dark.scrolled a
+{
+    color: black;
+}
+
+.bg-dark.scrolled #nav-brand img
+{
+    content: url("../img/logo-nav.png");
+}
+
+.bg-dark .active a, .bg-dark.scrolled .active a
+{
+    color: #52D28B;
+}
+
+#sign-in
+{
+    font-family: poppinsMed;
+
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+
+    margin-left: 50px;
+
+    background-color: #52D28B;
+    color: white;
+}
+
+#sign-in:hover
+{
+    opacity: 0.75;
+}
+
+#sign-in:active
+{
+    background-color: white;
+}
+
+/* Breadcrumb */
+
+#breadcrumb 
+{
+    margin-top: 12.5vh;
+    font-family: poppinsMed;
+}
+
+#breadcrumb *
+{
+    background-color: #eeeeee !important;
+}
+
+#breadcrumb .breadcrumb-item a
+{
+    text-decoration: none;
+    color: #52D28B;
+    font-size: 14px;
+}
+
+#breadcrumb .breadcrumb-item + .breadcrumb-item::before 
+{
+    content: ">";
+}
+
+/* Footer */
+
+footer
+{
+    height: 125vh;
+    padding-top: 10vh;
+    background-color: white;
+    border-top: 1px solid rgb(180, 180, 180);
+}
+
+footer .container
+{
+    height: 35vh;
+    margin-bottom: auto;
+}
+
+footer .container .row img
+{
+    width: 128px;
+    margin-bottom: 2vh;
+}
+
+footer .solid
+{
+    position: relative;
+    margin-left: 0;
+    border: none;
+    height: 4px;
+    width: 50px;
+    background: #52D28B;
+    margin-bottom: 25px;
+}
+
+#footer-brand
+{
+    margin: auto;
+    padding-right: 50px;
+}
+
+#footer-brand .footer-desc
+{
+    font-family: poppins;
+    color: black;
+    font-size: 14px;
+    opacity: 0.75;
+}
+
+.footer-title
+{
+    font-family: gothamMed;
+}
+
+.footer-list
+{
+    padding: 0;
+}
+
+.footer-list-item
+{
+    list-style-type: none;
+    font-family: poppins;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer-list-item a
+{
+    text-decoration: none;
+    color: black;
+    opacity: 0.75;
+}
+
+#footer-sub
+{
+    padding-right: 50px;
+}
+
+#subscription
+{
+    background: transparent;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 15px;
+    width: 250px;
+    height: 6vh;
+    font-size: 14px;
+}
+
+#subscription::placeholder
+{
+    padding: 10px;
+}
+
+#subscription-button
+{
+    font-family: poppinsMed;
+    font-size: 14px;
+    border: none;
+    border-radius: 15px;
+    width: 250px;
+    height: 6vh;
+    background: #52D28B;
+    color: #ffffff;
+}
+
+#footer-row-2
+{
+    margin-top: 2.5vh;
+}
+
+#footer-row-2 a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#footer-row-3
+{
+    color: black;
+    opacity: 0.75;
+}
+}
+
